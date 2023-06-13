@@ -101,7 +101,7 @@
 }
 
 body#pag-index {
-    background-image: url(/imagens/backgrounds/background_personagens.jpg);
+    background-image: url(../imagens/backgrounds/background_personagens.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover ;
@@ -116,7 +116,7 @@ body#pag-index {
 
 
 body#pag-temporadas {
-    background-image: url(/imagens/backgrounds/background_index.jpg);
+    background-image: url(../imagens/backgrounds/background_index.jpg);
     background-repeat: no-repeat;
     background-position:center ;
     background-size: cover;
@@ -124,7 +124,7 @@ body#pag-temporadas {
 
 }
 body#pag-historia{
-    background-image: url(/imagens/backgrounds/temporadas.webp);
+    background-image: url(../imagens/backgrounds/temporadas.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover ;
@@ -179,7 +179,7 @@ body#pag-historia{
 }
 
 body#pag-personagens{
-   background-image: url(/imagens/backgrounds/background.webp);
+   background-image: url(../imagens/backgrounds/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -188,7 +188,7 @@ body#pag-personagens{
 }
 
 body#pag-sam{
-    background-image: url(/imagens/backgrounds/sam.webp);
+    background-image: url(../imagens/backgrounds/sam.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -196,28 +196,28 @@ body#pag-sam{
 
 }
 body#pag-dean{
-    background-image: url(/imagens/backgrounds/dean.jpg);
+    background-image: url(../imagens/backgrounds/dean.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
 }
 body#pag-crowley{
-    background-image: url(/imagens/backgrounds/crowley.jpg);
+    background-image: url(../imagens/backgrounds/crowley.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
 }
 body#pag-castiel {
-    background-image: url(/imagens/backgrounds/castiel.jpg);
+    background-image: url(../imagens/backgrounds/castiel.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
 }
 body#pag-lucifer{
-    background-image: url(/imagens/backgrounds/lucifer.jpg);
+    background-image: url(../imagens/backgrounds/lucifer.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,7 +225,7 @@ body#pag-lucifer{
 }
 
 body#pag-videos {
-    background-image: url(/imagens/backgrounds/background+videos.jpg);
+    background-image: url(../imagens/backgrounds/background+videos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
