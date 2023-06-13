@@ -1,0 +1,472 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+
+
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+
+}
+
+
+#cabecalho {
+    margin-bottom: 50px;
+
+     
+}
+
+#cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#cabecalho #menu ul {
+    display: flex;
+    
+}
+
+#cabecalho #menu li {
+    list-style: none;
+}
+
+#cabecalho #menu a {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: #ccc;
+    transition: all .02s linear;
+    
+
+}
+
+#cabecalho #menu a:hover {
+    background-color: black
+}
+
+#banners .container {
+    max-width: 1200px;
+   align-items: center;
+  
+
+ 
+}
+
+#historia{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 1600px;
+    border-radius: 50px;
+   
+}
+
+
+
+#historia p{
+    text-align: justify;
+    color: aliceblue;
+    text-align: justify;
+    max-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;  
+    text-overflow: ellipsis;
+}
+
+#historia h3{
+    background: rgba(121, 126, 61, 0.5);
+    max-width: 400px;
+    border-radius: 200px;
+}
+
+body#pag-index {
+    background-image: url(/imagens/backgrounds/background_personagens.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position: center;
+}
+#index .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+ }
+ 
+
+
+body#pag-temporadas {
+    background-image: url(/imagens/backgrounds/background_index.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+body#pag-historia{
+    background-image: url(/imagens/backgrounds/temporadas.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position: center;
+}
+
+#temporadas .container{
+    margin-bottom: 10px;
+    
+
+}
+
+
+#temporadas img{
+    float: left;
+    margin-right: 30px;
+    width: 400px;
+    border-radius: 20px;
+    
+}
+
+#temporadas h3{
+    max-width: 480px;
+    background: rgba(5, 43, 125, 0.6);
+    border-radius: 200px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+#temporadas h2{
+    background: rgba(255, 255, 255, 0.17);
+    font-size: 30px;
+    max-width: 1200px;
+    color:black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#temporadas p{
+    background: rgba(0,0,0,0.5);
+    max-width: 1600px;
+    text-decoration: none;
+    text-align: justify;
+    margin-bottom: 200px;
+    color: aliceblue;
+    display: block;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+body#pag-personagens{
+   background-image: url(/imagens/backgrounds/background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+body#pag-sam{
+    background-image: url(/imagens/backgrounds/sam.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+body#pag-dean{
+    background-image: url(/imagens/backgrounds/dean.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+body#pag-crowley{
+    background-image: url(/imagens/backgrounds/crowley.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+body#pag-castiel {
+    background-image: url(/imagens/backgrounds/castiel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+body#pag-lucifer{
+    background-image: url(/imagens/backgrounds/lucifer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+body#pag-videos {
+    background-image: url(/imagens/backgrounds/background+videos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#videos .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+#videos .container iframe {
+    width: 100%;
+}
+
+#videos h2{
+    font-size: 42px;
+    background-color: rgba(0, 0, 0, 0.363);
+    max-width: 350px;
+    border-radius: 30px;
+}
+#historia-lucifer{
+    color: aliceblue;
+    text-align: justify;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.408);
+    font-size: 22px;
+ 
+}
+
+#pag-lucifer h2{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    border-radius: 50px;
+    max-width: 380px;
+    background-color: #00000041;
+    color: rgb(255, 204, 0);
+}
+#historia-crowley{
+    color: aliceblue;
+    text-align: justify;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.408);
+    font-size: 22px;
+ 
+}
+
+#pag-crowley h2{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    border-radius: 50px;
+    max-width: 380px;
+    background-color: #00000041;
+    color: rgb(255, 204, 0);
+}
+#historia-castiel{
+    color: aliceblue;
+    text-align: justify;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.408);
+    font-size: 22px;
+ 
+}
+
+#pag-castiel h2{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    border-radius: 50px;
+    max-width: 380px;
+    background-color: #00000041;
+    color: rgb(255, 204, 0);
+}
+
+#historia-sam{
+    color: aliceblue;
+    text-align: justify;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.408);
+    font-size: 22px;
+ 
+}
+
+#pag-sam h2{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    border-radius: 50px;
+    max-width: 380px;
+    background-color: #00000041;
+    color: rgb(255, 204, 0);
+
+}
+#historia-dean{
+    color: aliceblue;
+    text-align: justify;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.408);
+    font-size: 22px;
+ 
+}
+
+#pag-dean h2{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    border-radius: 50px;
+    max-width: 380px;
+    background-color: #00000041;
+    color: rgb(255, 204, 0);
+
+}
+#personagens .titulo{
+    background: rgba(255, 255, 255, 0.55);
+    color: rgb(0, 19, 45);
+    text-decoration: none;
+    max-width: 500px;
+    border-radius: 20px;
+    
+}
+
+#personagens .container {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   position: relative;
+}
+
+#personagens .container img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+body {
+    background: #ff0000;
+    background: linear-gradient(#ddd, #e8e8e8);
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin:0;
+}
+
+
+.thumb .container {
+    max-width: 100%;
+    
+    
+    
+   
+}
+.thumb img{
+    border-radius: 50px;
+    
+}
+
+.thumb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+  
+}
+
+.thumb:hover a {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+.thumb a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: inherit;
+    background-size: cover, cover;
+    background-position: bottom;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+.thumb a span {
+   
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: absolute;
+    top: 380px;
+    left: 0;
+    width: 100%;
+    font: bold 20px/36px "Open Sans";
+    text-align: center;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
+    z-index: 1;
+}
+.thumb a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    opacity: 0.15;
+    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin: bottom;
+}
+
+.thumb:hover a:before {
+    opacity: 1;
+    box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+    transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+
+
+
+#rodape {
+    background-color: black;
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
+    
+}
+
+#rodape a {
+    color: orangered;
+    text-decoration: none;
+    transition: .03s linear;
+
+}
+#rodape a:hover {
+    text-decoration: underline;
+    
+}
+
